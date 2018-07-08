@@ -1,0 +1,28 @@
+{
+    "name": "zs/installers",
+    "type": "composer-plugin",
+    "keywords": ["zs", "cms", "installers", "plugin"],
+    "homepage": "https://zhuiso.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "showkw",
+            "email": "showkw@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zs\\Installer\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "Zs\\Installer\\Composer\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev",
+        "phpunit/phpunit": "~6.0"
+    }
+}
