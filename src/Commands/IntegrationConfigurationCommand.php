@@ -6,6 +6,7 @@
 // +----------------------------------------------------------------------
 // | CopyRight: (c) 2018 zhuiso.com
 // +----------------------------------------------------------------------
+namespace Zs\Installer\Commands;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Zs\Foundation\Console\Abstracts\Command;
