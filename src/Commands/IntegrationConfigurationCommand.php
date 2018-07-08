@@ -6,6 +6,15 @@
 // +----------------------------------------------------------------------
 // | CopyRight: (c) 2018 zhuiso.com
 // +----------------------------------------------------------------------
+use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Collection;
+use Zs\Foundation\Console\Abstracts\Command;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Yaml\Yaml;
+
+/**
+ * Class IntegrationConfigurationCommand.
+ */
 class IntegrationConfigurationCommand extends Command
 {
     public function configure()
