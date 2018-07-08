@@ -2,7 +2,7 @@
     "name": "zs-install",
     "version": "1.0.0",
     "description": "Project for Zs installation.",
-    "author": "twilroad <heshudong@ibenchu.com>",
+    "author": "showkw <showkw@163.com>",
     "private": true,
     "scripts": {
         "dev": "node build/dev-server.js",
