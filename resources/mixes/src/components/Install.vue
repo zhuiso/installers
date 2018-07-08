@@ -622,7 +622,7 @@
                     <div class="form-horizontal">
                         <div class="row">
                             <div class="col-4">
-                                <div class="form-group" :class="{ error: errors.has('sitename') }">
+                                <div class="form-group" :class="{ error: errors.has('mail') }">
                                     <label>管理员邮箱</label>
                                     <input type="text"
                                            name="mail"
